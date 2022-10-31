@@ -13,16 +13,16 @@ body {
 .aaa img {
   width: 100%;
 }
-.aaa .more_inf {
+.aaa .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { 
+.header-container { 
   text-align: center;
 }
 }
-.centered-main-page-element {
+.main-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -59,7 +59,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new-task"] {
+.new-lask-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -68,7 +68,7 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+input.task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -80,12 +80,12 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+input.task:focus {
   color: #333;
 }
 
 /* New Task */
-label[for="new-task"] {
+.new-task-label {
   display: block;
   margin: 0 0 20px;
 }
