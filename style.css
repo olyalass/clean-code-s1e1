@@ -61,8 +61,7 @@
   color: #3a3a3a;
 }
 /* Heading */
-.sub-title,
-.task_new__label {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -102,7 +101,8 @@
 .task__input_checkbox {
   margin: 0 10px;
 }
-.task__label {
+.task__label,
+.task_new__title {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -141,7 +141,7 @@
 }
 
 /* New Task */
-.task_new__label {
+.task_new__title {
   display: block;
   margin: 0 0 20px;
 }
