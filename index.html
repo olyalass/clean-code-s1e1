@@ -8,22 +8,22 @@
         media="screen" charset="utf-8">
   </head>
   <body class="body">
-    <div class="header">
+    <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
       <a class="header__link" 
           href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?;
       </a>
-    </div>
-    <div class="main">
-      <p id="new-task-form">
-        <label for="new-task" class = "task__label task_new__label">Add Item</label>
-        <div class="task_new__form">
+    </header>
+    <main class="main">
+      <section id="new-task-form">
+        <h2 class="task_new__title title">Add Item</h2>
+        <form class="task_new__form">
           <input id="new-task" class="task_new__input task__input task__input_text" type="text">
           <button class="button">Add</button>
-        </div>
-      </p>
-      <h3 class="sub-title">Todo</h3>
+        </form>
+      </section>
+      <h3 class="title">Todo</h3>
       <ul class="task__list task__list_incomleted" id="incomplete-tasks">
         <li class="task__item">
           <input type="checkbox" class="task__input task__input_checkbox">
@@ -45,7 +45,7 @@
           </button>
         </li>
       </ul>
-      <h3 class="sub-title">Completed</h3>
+      <h3 class="title">Completed</h3>
       <ul class="task__list task__list_completed" id="completed-tasks">
         <li class="task__item">
           <input type="checkbox" class="task__input task__input_checkbox" checked>
@@ -57,7 +57,7 @@
           </button>
         </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
