@@ -144,6 +144,7 @@
 .task_new__title {
   display: block;
   margin: 0 0 20px;
+  width: 100%;
 }
 .task_new__input {
   display: inline-block;
